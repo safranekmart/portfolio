@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.main-page {
+  height: 850px;
+  background: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.779)), url(pictures/pozadi2.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pokus {
+  background-color: aqua;
+}
+
+@media (max-width: 766px) {
+  .main-page {
+    height: 650px;
+  }
+}
+
+.mainpage {
+  z-index: 0;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+
+
+.dovednosti img {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+
+.dovednosti .row {
+  border: 2px solid;
+  border-radius: 15px;
+  transform: scale(1);
+}
+
+.dovednosti .row:hover {
+  transition: transform 0.5s;
+  transform: scale(1.05);
+
+}
+
+.form {
+  background: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.779)), url(pictures/pozadi2.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.port {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.port:hover {
+  transition: transform 0.5s, opacity 0.5s;
+  transform: scale(1.05);
+  opacity: 1;
+
+}
+
+h4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.779)), url(pictures/pozadi2.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btbt {
+  opacity: 1;
+  transform: scale(1);
+
+}
+
+.btbt:hover {
+  transition: transform 0.5s, opacity 0.5s;
+  transform: scale(1.15);
+  opacity: 1;
+
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768.98px) {
+  .prog {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (min-width: 768.98px) {
+
+  .app {
+    width: 50%;
+    float: right;
+
+  }
+}
+
+@media (min-width: 768.98px) {
+
+  .datab {
+    width: 50%;
+    float: left;
+
+  }
+}
+
+@media (min-width: 768.98px) {
+
+  .os {
+    width: 50%;
+    float: right;
+  }
+}
+
+@media (max-width: 768.98px) {
+
+  .datab {
+    margin-top: -30px;
+
+  }
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

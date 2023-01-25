@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Šafránek Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="styly.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css"
+    integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-1">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Martin</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#MainNav"
+          aria-controls="MainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="MainNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#ome">O mě</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#dovednosti">Dovednosti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#zaliby">Záliby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="main-page">
+      <div class="container mainpage sticky-top">
+        <div class="row">
+          <div class="col-3 mt-5">
+            <h1 class="text-light p-2">Martin Šafránek</h1>
+            <h4 class="text-light p-2 mt-3">C#/Java Developer</h4>
+          </div>
+          <div class="col-2 mt-5"></div>
+          <div class="col-7 mt-5">
+            <img src="pictures/dev1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <!--O mě-->
+      <a name="ome"></a>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="pictures/IMG_2022.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-9">
+            <div class="bg-dark text-light p-5">
+              <p">
+                Zdravím, jmenuji se Martin Šafránek. Momentálně studuji rekvalifikační kurz na VŠB. Mám vystudovanou
+                sociologii, IT bylo dlouhou dobu pouze mým koníčkem, ale nyní bych se programování rád věnoval profesně.
+                Zaměřuji se především na vývoj softwaru v C# a Javě.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio-->
+    <a name="portfolio"></a>
+    <h4 class="text-primary my-5 d-block text-center bg-dark text-light  py-2">Portfolio</h4>
+    <div class="container portfolio text-center">
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-2 port">
+          <div class="card cardportfolio">
+            <img src="pictures/Výstřižek.JPG" class="card-img-top" alt="picture">
+            <div class="card-body">
+              <h5 class="card-title">Objednávkový formulář</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate incidunt
+                nesciunt aliquid. Odit, eaque!</p>
+              <a href="https://github.com/safranekmart/Objedn-vka" class="btn btn-primary">Git</a>
+              <a href="https://safranekmart.github.io/Objedn-vka/" class="btn btn-primary">Navštivte</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-2 port">
+          <div class="card cardportfolio">
+            <img src="pictures/cestovka.JPG" class="card-img-top" alt="picture">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cupiditate incidunt
+                nesciunt aliquid. Odit, eaque!</p>
+              <a href="https://github.com/safranekmart/cestovka" class="btn btn-primary">Git</a>
+              <a href=https://safranekmart.github.io/cestovka/ class="btn btn-primary">Navštivte</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-2 port">
+          <div class="card cardportfolio">
+            <img src="pictures/vykop.JPG" class="card-img-top" alt="picture">
+            <div class="card-body">
+              <h5 class="card-title">React appka</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, magnam aliquam.
+                Odio
+                natus illo perferendis.</p>
+              <a href="https://github.com/safranekmart/stavba" class="btn btn-primary">Git</a>
+              <a href=https://safranekmart.github.io/stavba/ class="btn btn-primary">Navštivte</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-2 port">
+          <div class="card cardportfolio">
+            <img src="pictures/source-code-gfc24d1877_1280.jpg" class="card-img-top" alt="picture">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, magnam aliquam. Odio
+                natus illo perferendis.</p>
+              <a href="#" class="btn btn-primary">Git</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Dovednosti-->
+    <a name="dovednosti"></a>
+    <h4 class="text-primary my-5 text-center bg-dark text-light  py-2">Dovednosti</h4>
+    <div class="container dovednosti my-4">
+
+      <div class="container">
+        <div class="row shadow-lg">
+          <h5 class="my-3 text-center text-success align-middle text-uppercase ">www</h5>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/html.png" class="card-img img-fluid" alt="www" />
+              <div class="card-body">
+                <h6 class="card-title text-center">HTML</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/css.png" class="card-img" alt="css" />
+              <div class="card-body">
+                <h6 class="card-title text-center">CSS</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/js.png" class="card-img" alt="js" />
+              <div class="card-body">
+                <h6 class="card-title text-center">
+                  Java Script
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/react.png" class="card-img" alt="react" />
+              <div class="card-body">
+                <h6 class="card-title text-center">React</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/bootstrap.png" class="card-img" alt="bootstrap" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Bootstrap</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 col-xl-1">
+            <div class="card border-0" style="width: 6.2rem">
+              <img src="pictures/php.png" class="card-img" alt="php" />
+              <div class="card-body">
+                <h6 class="card-title text-center">PHP</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row shadow-lg prog">
+          <h5 class="text-success my-3 text-center">Programovací Jazyky</h5>
+          <div class="col-3 col-md-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/csh.png" class="card-img" alt="c#" />
+              <div class="card-body">
+                <h6 class="card-title text-center">C#</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/java.png" class="card-img" alt="java" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Java</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/python.png" class="card-img" alt="python" />
+              <div class="card-body">
+                <h6 class="text-center">Python</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row shadow-lg app">
+          <h5 class="text-success my-3 text-center">Mobilní Aplikace</h5>
+
+          <div class="col-3 col-md-4 col-xl-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/xamarin.png" class="card-img" alt="xamarin" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Xamarin</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-xl-3 col-xl-2">
+            <div class="card border-0" style="width: 8.7rem">
+              <img src="pictures/android.png" class="card-img" alt="android" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Android studio</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+      <div class="container my-4">
+        <div class="row shadow-lg datab">
+          <h5 class="text-success my-3 text-center">Databáze</h5>
+          <div class="col-3 col-md-3 col-lg-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/access.png" class="card-img" alt="access" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Access</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-lg-3 col-xl-2">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/oracle.png" class="card-img" alt="Oracle" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Oracle</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-lg-3 col-xl-2">
+            <div class="card border-0" style="width: 6rem">
+              <img src="pictures/microsoft-sql-server.png" class="card-img" alt="MYSQL" />
+              <div class="card-body">
+                <h6 class="card-title text-center">
+                  MS SQL Server
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-3 col-lg-3 col-xl-2">
+            <div class="card border-0" style="width: 4rem">
+              <img src="pictures/sql.png" class="card-img" alt="SQL" />
+              <div class="card-body">
+                <h6 class="card-title text-center">PL/ SQL</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row shadow-lg os">
+          <h5 class="text-success my-3 text-center">OS Management</h5>
+          <div class="col-3 col-md-4 col-lg-3 col-xl-3">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/windows.png" class="card-img" alt="Windows" />
+              <div class="card-body">
+                <h6 class="card-title text-center">
+                  Windows server
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-lg-3 col-xl-3">
+            <div class="card border-0" style="width: 7rem">
+              <img src="pictures/Linux.png" class="card-img" alt="Linux" />
+              <div class="card-body">
+                <h6 class="card-title text-center">Linux</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!--Záliby-->
+    <a name="zaliby"></a>
+    <h4 class="h1-responsive font-weight-bold text-center bg-dark text-light my-4 p-2">Záliby</h4>
+    <div class="container zaliby my-5">
+
+      <div class="row">
+        <div class="col-md-2 d-none d-md-inline">
+          <div id="carouselControls1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="pictures/runner.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="pictures/cycling.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="pictures/reading.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls1"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls1"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark">Rád si chodím zaběhat. Mým snem je jednou zaběhnout
+              maraton.</li>
+            <li class="list-group-item">Pokud to počasí dovolí, vyjedu si na kole. Nejraději k Jistebnickým rybníkům,
+              kde si vyčistím hlavu.</li>
+            <li class="list-group-item list-group-item-dark">Nejraději sáhnu po literatuře faktu. Rád si přečtu i
+              seberozvojovou knihu.</li>
+            <li class="list-group-item">Rád si zajdu s přáteli na něco dobrého.</li>
+            <li class="list-group-item list-group-item-dark"> Programování pro mě bylo vždycky koníčkem. Těď ale doufám,
+              že se stane také mou profesí.</li>
+          </ul>
+        </div>
+        <div class="col-md-2 d-none d-md-inline">
+          <div id="carouselControls2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="pictures/meal.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="pictures/programing.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-5">
+      <div class="my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <!--Formulář-->
+  <section class="form">
+    <div class="container">
+      <!--Section: Contact-->
+      <h4 class="h1-responsive font-weight-bold text-center bg-dark text-light my-3 p-3">Kontaktujte mě!</h4>
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="" method="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6 my-1">
+                <div class="form-floating md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Jméno">
+                  <label for="floatingInput">Vaše jméno</label>
+                </div>
+              </div>
+              <div class="col-md-6 my-1">
+                <div class="form-floating md-form mb-0">
+                  <input type="email" id="email" name="email" class="form-control" placeholder="email*" required>
+                  <label for="floatingInput">Váš email*</label>
+                </div>
+              </div>
+            </div>
+            <div class="row my-4">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="zprava" id="floatingTextarea"
+                    style="height: 300px"></textarea>
+                  <label for="floatingTextarea">Vaše zpráva</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="text-center text-md-left">
+              <button class="btn btn-primary btbt" disabled
+                onclick="document.getElementById('contact-form').submit();">Poslat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--Footer-->
+  <a name="kontakt"></a>
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+
+        <div class="col align-self-end">
+
+          <a href="https://www.linkedin.com/in/martin-%C5%A1afr%C3%A1nek/"><img src="pictures/li.png" alt=""
+              width="30px"></a>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script>
+    const navLinks = document.querySelectorAll(".nav-item");
+    const menuToggle = document.getElementById("MainNav");
+    const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+    navLinks.forEach((l) => {
+      l.addEventListener("click", () => {
+        bsCollapse.toggle();
+      });
+    });
+  </script>
+
+</body>
+
+
+</html>
